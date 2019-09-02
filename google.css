@@ -1,0 +1,158 @@
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+}
+a {
+
+	text-decoration: none;
+	color: rgb(111, 111, 153)
+}
+a:hover{
+	text-decoration: underline;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: nowrap;
+	margin: 18px 30px 50px;
+	font-size: 13px;
+
+
+}
+
+nav > ul{
+	list-style: none;
+}
+
+nav > ul > li {
+
+	
+	
+	display: inline-block;
+	align-items: center;
+	padding: 5px;
+
+
+
+}
+
+nav > ul > li > img {
+	width: 25px;
+}
+
+content {
+
+	height: 370px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 25px;
+}
+
+
+.bar{
+	width: 550px;
+	height: 45px;
+	border-radius: 30px;
+	border: .5px solid rgba(211, 211, 211, .7);
+	margin-bottom: 30px;
+	position: relative;
+}
+content > form > img{
+	width: 15px;
+	position: relative;
+	right: 35px;
+	top: 5px;
+}
+.bar:hover{
+	box-shadow: 0px 0px 35px -20px;
+
+}
+.button1 {
+
+	margin-left: 140px;
+}
+.button1, .button2{
+	width: 150px;
+	height: 35px;
+	color: gray;
+	background-color: rgba(240, 240, 240, .8);
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.button1:hover,.button2:hover{
+	cursor: pointer;
+	background-color: rgb(248,248,248);
+	border: .5px solid rgba(211, 211, 211, .7);
+}
+.bangla{
+	font-size: 13px;
+
+
+}
+.bangla>a{
+	color: blue;
+}
+.bangladesh {
+	font-color: rgb(111, 111, 153);
+	font-size: 15px;
+}
+footer{
+	color: rgb(95, 99, 104);
+
+}
+
+
+.footer1 {
+	margin-top: 68px;
+	background-color: #f2f2f2;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding-left: 28px;
+	border-bottom: 1px solid lightgray;
+	height: 40px;
+	
+}
+
+
+.footer2{
+	background-color: #f2f2f2;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+
+}
+.left{
+	padding-left: 20px;
+	display: flex;
+	justify-content: flex-start;
+}
+.right {
+	padding-right: 20px;
+	display: flex;
+	justify-content: flex-end;
+
+}
+.left>li {
+	display: inline-block;
+	margin: 5px;
+	padding-top: 20px;
+	padding:10px 0px 0px 8px;
+	font-size: 13px;
+	
+}
+
+.right>li {
+	display: inline-block;
+	margin: 5px;
+	padding:10px 15px 0px 15px;
+	font-size: 13px;
+
+}
